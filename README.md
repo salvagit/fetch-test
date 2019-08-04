@@ -1,7 +1,16 @@
-# run
+Pequeño ejemplo de uso de fetch y script template.
 
-[install parcel](https://parceljs.org/getting_started.html)
+# clonamos el repo
+```
+ $ git clone https://github.com/salvagit/fetch-test/edit/
+```
 
+# [Instalamos Parcel](https://parceljs.org/getting_started.html)
+```
+ $ yarn global add parcel-bundler
+```
+
+# run example
 ```
  $ parcel index.html
 ```
