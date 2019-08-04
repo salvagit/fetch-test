@@ -12,7 +12,11 @@ function renderMovie(image, title, year) {
   document.querySelector(".card-columns").appendChild(movieEl);
 }
 
-fetch("http://www.omdbapi.com/?i=tt3896198&apikey=abe47891&s=star")
+const apiKey = "xxxxxxxx";
+const fetchUrl = `http://www.omdbapi.com/?i=tt3896198&apikey=${apiKey}`;
+const searchParam = "s=star";
+
+fetch(`${fetchUrl}&${searchParam}`)
   .then(function(response) {
     return response.json();
   })
