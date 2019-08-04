@@ -2,7 +2,8 @@ Pequeño ejemplo de uso de fetch y script template.
 
 # clonamos el repo
 ```
- $ git clone https://github.com/salvagit/fetch-test/edit/
+ $ git clone https://github.com/salvagit/fetch-test/
+ $ cd fetch-test
 ```
 
 # [Instalamos Parcel](https://parceljs.org/getting_started.html)
@@ -15,4 +16,4 @@ Pequeño ejemplo de uso de fetch y script template.
  $ parcel index.html
 ```
 
-[example video](https://www.youtube.com/watch?v=Uom-Cx8HCu8)
+[example video](https://youtu.be/Uom-Cx8HCu8)
